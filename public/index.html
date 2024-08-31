@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secrets</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f0f2f5; /* Light grey background for the page */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      max-width: 400px;
+      padding: 40px 30px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
+      text-align: center;
+    }
+
+    .form-container h1 {
+      color: #333; /* Dark color for better readability */
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
+
+    .form-control {
+      border-radius: 30px; /* Rounded corners for input field */
+      border-color: #ced4da; /* Light grey border for input */
+      box-shadow: none; /* Remove default shadow */
+      padding: 10px 20px; /* Padding inside the input field */
+    }
+
+    .form-control:focus {
+      border-color: #007bff; /* Blue border on focus */
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
+    }
+
+    .btn-custom {
+      background-color: #007bff; /* Primary blue color for button */
+      border-radius: 30px; /* Rounded corners for button */
+      padding: 10px 20px; /* Padding inside the button */
+      border: none; /* Remove default border */
+      font-weight: 600;
+      color: #fff; /* White text color */
+      transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+
+    .btn-custom:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Login</h1>
+    <form action="/check" method="POST">
+      <div class="mb-3">
+        <label for="password" class="form-label visually-hidden"></label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <button style="margin-top: 10%;" type="submit" class="btn btn-custom btn-block w-100">Submit</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Unsuccessful</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8d7da; /* Light red background to indicate error */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full viewport height for centering */
+      margin: 0; /* Remove default margin */
+    }
+
+    .alert-container {
+      max-width: 400px;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+      text-align: center;
+      border: 1px solid #f5c6cb; /* Red border to match error theme */
+    }
+
+    .alert-container h1 {
+      color: #721c24; /* Dark red color for the error message */
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .alert-container p {
+      color: #721c24; /* Dark red for additional text */
+      margin-bottom: 30px;
+    }
+
+    .btn-try-again {
+      background-color: #f5c6cb; /* Light red color for try again button */
+      color: #721c24; /* Dark red text color */
+      border-radius: 30px; /* Rounded corners for button */
+      padding: 10px 20px;
+      border: none; /* Remove default border */
+      font-weight: 600;
+      transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+
+    .btn-try-again:hover {
+      background-color: #f1b0b7; /* Darker shade on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="alert-container">
+    <h1>Login Unsuccessful</h1>
+    <p>We're sorry, but your login attempt was not successful. Please check your credentials and try again.</p>
+    <a href="/" class="btn btn-try-again w-100">Try Again</a>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
