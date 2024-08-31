@@ -1,15 +1,5 @@
 
 
-## Description
-
-A brief description of your project.
-
-## Features
-
-- Feature 1
-- Feature 2
-
-## Password-Protected Page Access
 
 ### Introduction
 
