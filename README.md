@@ -4,6 +4,16 @@ This feature allows users to access a different page on the website if the passw
 
 ---
 
+## 📸 Preview
+
+![Password Prompt Screenshot](https://github.com/your-username/password-verification-feature/blob/main/screenshot.PNG?raw=true)
+*Password prompt interface*
+
+![Access Granted Screenshot](https://github.com/your-username/password-verification-feature/blob/main/screenshot1.png?raw=true)
+*Redirected to protected page upon successful verification*
+
+---
+
 ## 🛠️ Features
 
 - **Password Prompt**: Users are prompted to enter a password to access restricted content.
@@ -26,7 +36,7 @@ This feature allows users to access a different page on the website if the passw
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Node.js (for server-side password comparison)**
+- **Node.js** (for server-side password comparison)
 
 ---
 
