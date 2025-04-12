@@ -6,7 +6,7 @@ This feature allows users to access a different page on the website if the passw
 
 ## 📸 Preview
 
-![Password Prompt Screenshot](https://github.com/eritech98/Login/blob/main/screenshot.PNG?raw=true)
+![Password Prompt Screenshot](https://github.com/eritech98/Login/blob/main/screensho.PNG?raw=true)
 *Password prompt interface*
 
 ![Access Granted Screenshot](https://github.com/your-username/password-verification-feature/blob/main/screenshot1.png?raw=true)
