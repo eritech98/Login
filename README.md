@@ -2,18 +2,6 @@
 
 This feature allows users to access a different page on the website if the password they enter matches the one specified on the server. It is designed to secure sensitive or restricted content, ensuring that only authorized users can view specific pages.
 
----
-
-## 📸 Preview
-
-![Password Prompt Screenshot](https://github.com/eritech98/Login/blob/main/screensho.PNG?raw=true)
-*Password prompt interface*
-
-![Access Granted Screenshot](https://github.com/your-username/password-verification-feature/blob/main/screenshot1.png?raw=true)
-*Redirected to protected page upon successful verification*
-
----
-
 ## 🛠️ Features
 
 - **Password Prompt**: Users are prompted to enter a password to access restricted content.
